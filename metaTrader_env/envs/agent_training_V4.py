@@ -1,9 +1,4 @@
 import torch
-
-#from metaTrader_env.envs.legacies.actor_ltc import AgentLTC
-#from actor_ltc_recurrent_2 import AgentRLTC
-# from actor_ltc_recurrent import AgentRLTC
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -11,7 +6,6 @@ import matplotlib.pyplot as plt
 from mt5_api import MetaTrader
 from metaTrader_env.envs.trading_forex_env_V4 import ForexTradingEnv4
 from metaTrader_env.helper.utils_2 import dataset_creation, loadData, soft_squash, dataset_creation_v2
-#from metaTrader_env.envs.actor_ltc_recurrent_V3 import AgentRLTCV3
 from metaTrader_env.envs.actor_ltc_recurrent_V4 import AgentRLTC_Seq
 
 meta_api = MetaTrader()
