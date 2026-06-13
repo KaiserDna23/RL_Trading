@@ -30,7 +30,7 @@ def getBotChatID(token:str, check=False):
         return rslt["message"]["chat"]["id"]
     else:
         # hard coded
-        return '5459839743'
+        return '545XXXXXXXX'
 
 
 
