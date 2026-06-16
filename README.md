@@ -1,4 +1,4 @@
-# A.I trading agent though reinforcement learning
+# A.I trading agent though reinforcement learning with Lquid Time Constant networks (LTC)
 
 An A.I model capable of trading on the MetaTrader5 (mt5) platform 
 
